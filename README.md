@@ -66,14 +66,19 @@ region = ap-south-1
 h. Now default profile for boto3 is setup!
 
 ## Screenshots
-Uploading File to S3
-![uploadfile](https://github.com/harshnipane/AWS-S3-Bucket-with-Python-boto3-/assets/85990319/4e523594-1b09-413a-a77b-7416655ebab1)
 
 Buckets created using boto3
+
 ![Screensho20](https://github.com/harshnipane/AWS-S3-Bucket-with-Python-boto3-/assets/85990319/511dc4e4-d18a-4452-95de-607d81e8d0f1)
+
+
+Uploading File to S3 using python
+
+![uploadfile](https://github.com/harshnipane/AWS-S3-Bucket-with-Python-boto3-/assets/85990319/4e523594-1b09-413a-a77b-7416655ebab1)
 
 
 ![Screenshot (21)](https://github.com/harshnipane/AWS-S3-Bucket-with-Python-boto3-/assets/85990319/ca6727d5-7efd-4327-8e2a-e24a1fea1eb3)
 
+Deleting Buckets using python
 
 ![deletebuckets](https://github.com/harshnipane/AWS-S3-Bucket-with-Python-boto3-/assets/85990319/2cbaca08-0d81-410a-8896-0924b854a7db)
