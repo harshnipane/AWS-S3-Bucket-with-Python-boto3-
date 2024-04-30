@@ -16,7 +16,7 @@ So do following steps
 
 a. login to aws account
 
-c. Click create user
+c. Create user from IAM Service
 
 d. give access permissions to group
 
@@ -40,8 +40,6 @@ d. Select use case local code
 e. click on confirmation message
 
 f. check in security credentials , access keys status is active
-
-g. sign out
 
 Step4. On your PC / laptop
 a. create a directory AWS_S3
