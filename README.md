@@ -1,4 +1,8 @@
 # AWS-S3-Bucket-with-Python-boto3-
+
+It was fun to explore the combination of AWS S3 and Python's Boto3 library.
+Boto3 is the Python SDK for AWS. It allows to directly create, update, and delete AWS resources like S3 from your Python scripts.
+
 ## Installation and setup
 
 Step1 : Install boto3 using conda or pip on you PC / Laptop
