@@ -11,15 +11,11 @@ So do following steps
 
 a. login to aws account
 
-b. Go to services -> all services -> IAM service --> Users
-
 c. Click create user
 
-d. give the name
+d. give access permissions to group
 
-e. give access permissions to group
-
-4 access permissions need to be give Search in filter following and enable them EC2 full access IAM full access S3 full access Route53 full access
+e access permissions need to be give Search in filter following and enable them EC2 full access IAM full access S3 full access Route53 full access
 
 f. create group
 
@@ -38,15 +34,9 @@ d. Select use case local code
 
 e. click on confirmation message
 
-f. click next
+f. check in security credentials , access keys status is active
 
-g. click download csv file
-
-h. click done
-
-i. check in security credentials , access keys status is active
-
-j. sign out
+g. sign out
 
 Step4. On your PC / laptop
 a. create a directory AWS_S3
@@ -74,3 +64,15 @@ g. paste region Mumbai in following format
 region = ap-south-1
 
 h. Now default profile for boto3 is setup!
+
+
+![uploadfile](https://github.com/harshnipane/AWS-S3-Bucket-with-Python-boto3-/assets/85990319/4e523594-1b09-413a-a77b-7416655ebab1)
+
+
+![Screensho20](https://github.com/harshnipane/AWS-S3-Bucket-with-Python-boto3-/assets/85990319/511dc4e4-d18a-4452-95de-607d81e8d0f1)
+
+
+![Screenshot (21)](https://github.com/harshnipane/AWS-S3-Bucket-with-Python-boto3-/assets/85990319/ca6727d5-7efd-4327-8e2a-e24a1fea1eb3)
+
+
+![deletebuckets](https://github.com/harshnipane/AWS-S3-Bucket-with-Python-boto3-/assets/85990319/2cbaca08-0d81-410a-8896-0924b854a7db)
