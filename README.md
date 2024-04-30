@@ -7,66 +7,66 @@ Boto3 is the Python SDK for AWS. It allows to directly create, update, and delet
 ## Installation and setup
 
 - Step1 : Install boto3 using conda or pip on you PC / Laptop
-conda install -c conda-forge boto3
+  conda install -c conda-forge boto3
 
-ref: https://aws.amazon.com/sdk-for-python/
+  ref: https://aws.amazon.com/sdk-for-python/
 
 - Step2 : provide user credentials to boto3
-So do following steps
+  So do following steps
 
-a. login to aws account
+  a. login to aws account
 
-c. Create user from IAM Service
+  c. Create user from IAM Service
 
-d. give access permissions to group
+  d. give access permissions to group
 
-e access permissions need to be give Search in filter following and enable them EC2 full access IAM full access S3 full access Route53 full access
+  e access permissions need to be give Search in filter following and enable them EC2 full access IAM full access S3 full access Route53 full access
 
-f. create group
+  f. create group
 
-g. assign the permissions
+  g. assign the permissions
 
-h. logout
+  h. logout
 
 - Step3. login go to iam service -> users
-a. select the user to give programming access
+  a. select the user to give programming access
 
-b. click security credentials
+  b. click security credentials
 
-c. Select access keys
+  c. Select access keys
 
-d. Select use case local code
+  d. Select use case local code
 
-e. click on confirmation message
+  e. click on confirmation message
 
-f. check in security credentials , access keys status is active
+  f. check in security credentials , access keys status is active
 
 - Step4. On your PC / laptop
-a. create a directory AWS_S3
+  a. create a directory AWS_S3
 
-b. copy the downloaded credentials CSV file
+  b. copy the downloaded credentials CSV file
 
-c. create a .aws folder in 'C:\Users\your_user\' folder
+  c. create a .aws folder in 'C:\Users\your_user\' folder
 
-d. Inside .aws folder create file 'credentials' (without any extensions)
+  d. Inside .aws folder create file 'credentials' (without any extensions)
 
-e. paste crendentials in follwing format
+  e. paste crendentials in follwing format
 
-[default]
+  [default]
 
-aws_access_key_id = YOUR_ACCESS_KEY_ID
+  aws_access_key_id = YOUR_ACCESS_KEY_ID
 
-aws_secret_access_key = YOUR_SECRET_ACCESS_KEY
+  aws_secret_access_key = YOUR_SECRET_ACCESS_KEY
 
-f. Inside .aws folder create file 'config' (without any extensions)
+  f. Inside .aws folder create file 'config' (without any extensions)
 
-g. paste region Mumbai in following format
+  g. paste region Mumbai in following format
 
-[default]
+  [default]
 
-region = ap-south-1
+  region = ap-south-1
 
-h. Now default profile for boto3 is setup!
+  h. Now default profile for boto3 is setup!
 
 ## Screenshots
 
