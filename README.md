@@ -6,12 +6,12 @@ Boto3 is the Python SDK for AWS. It allows to directly create, update, and delet
 
 ## Installation and setup
 
-Step1 : Install boto3 using conda or pip on you PC / Laptop
+- Step1 : Install boto3 using conda or pip on you PC / Laptop
 conda install -c conda-forge boto3
 
 ref: https://aws.amazon.com/sdk-for-python/
 
-Step2 : provide user credentials to boto3
+- Step2 : provide user credentials to boto3
 So do following steps
 
 a. login to aws account
@@ -28,7 +28,7 @@ g. assign the permissions
 
 h. logout
 
-Step3. login go to iam service -> users
+- Step3. login go to iam service -> users
 a. select the user to give programming access
 
 b. click security credentials
@@ -41,7 +41,7 @@ e. click on confirmation message
 
 f. check in security credentials , access keys status is active
 
-Step4. On your PC / laptop
+- Step4. On your PC / laptop
 a. create a directory AWS_S3
 
 b. copy the downloaded credentials CSV file
